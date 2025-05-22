@@ -28,7 +28,7 @@ pipeline {
                  npm install
                  npm run test:ci
                  '''
-              junit reports/junit.xml
+              junit "reports/junit.xml"
             }
       } 
     }
